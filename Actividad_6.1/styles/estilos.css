@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* Selectores de etiqueta */
+h1{
+    color:rgb(0,225,255);
+    border: 2px rgb(255, 196, 0) solid;
+    text-decoration: underline;
+}
+
+div,span{
+    border: 2px rgb(166, 255, 0) solid;
+}
+
+/* Selectores de clase */
+.divInferior{
+    border: rgb(89, 0, 255)solid;
+}
