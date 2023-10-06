@@ -72,3 +72,15 @@ body{
     color: white;
     transform: scale(1.1);
 }
+
+.fa-user{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.fa-user:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}

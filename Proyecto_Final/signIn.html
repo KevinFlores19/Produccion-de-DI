@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rute-Care</title>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./estilosPFinal/signIn.css">
     <link rel="stylesheet" href="./estilosPFinal/proyectoFinal.css">
-    <script src="https://kit.fontawesome.com/80f857fe61.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <header class="header">
         <div class="logo">
             <img src="./img/ruteCare.png" alt="Logo Rute Care">
+    
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="proyectoFinal.html">Home</a></li>
                 <li><a href="#">Rutas</a></li>
                 <li><a href="#">About Us</a></li>
-            
-                <!-- <li><a href="#">Sign Up</a></li>  -->
             </ul>
         </nav>
-        <!-- <a href="#" class="btn"><button>Sign Up</button></a> -->
-        <a href="registro.html" class="btn"><i class="fa-solid fa-user"></i><button>Sign Up / Sign In</button></a>
     </header>
+
+
+    <form action="">
+        <div> Iniciar Sesion </div>
+
+        <label for="">E-mail</label>
+        <input type="email" id="email" required>
+
+        <label for="">Contraseña</label>
+        <input type="password" id="Contrasena" required>
+
+        <input type="submit" value="Iniciar Sesion">
+        <p>¿No tienes cuenta? <a href="registro.html">Crear cuenta</a></p>
+
 </body>
 </html>
