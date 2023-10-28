@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="./estilosPFinal/proyectoFinal.css">
+    <link rel="stylesheet" href="./estilosPFinal/contacto.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="./img/ruteCare.png" alt="Logo Rute Care">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Rutas</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+            
+                
+            </ul>
+        </nav>
+        
+        <a href="registro.html" class="btn"><i class="fa-solid fa-user"></i><button>Sign Up / Sign In</button></a>
+    </header> 
+
+    <h1>Contacto</h1>
+
+<form action="enviar.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+  
+
+</body>
+</html>
