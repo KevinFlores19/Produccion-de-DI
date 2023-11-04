@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad11_pt2</title>
+    <link rel="stylesheet" href="./act11_pt2.css">
+
+</head>
+<body>
+    <svg id="mural" width="800" height="400">
+    <!-- Fondo del mural -->
+    <rect id="cielo" x="0" y="0" width="800" height="400" fill="lightblue" />
+    <!-- Mar -->
+    <rect id="mar" x="0" y="200" width="800" height="200" fill="blue" />
+     <!-- Sol -->
+     <circle id="sol" cx="100" cy="100" r="40" fill="yellow" />
+     <!-- Nube -->
+     <ellipse id="nube" cx="450" cy="100" rx="40" ry="20" fill="white" />
+     <circle id="nube" cx="415" cy="100" r="19" fill="white" />
+     <circle id="nube" cx="485" cy="100" r="19" fill="white" />
+      <!-- Faro -->
+      <rect id="cuerpoFaro" x="600" y="150" width="45" height="100" fill="gray" />
+      <polygon id="techoFaro" points="600,150 630,100 645,150" fill="red" />
+
+      <!-- Barco -->
+        <rect id="titanic" x="150" y="300" width="400" height="15" fill="red" />
+        <rect id="titanic" x="150" y="250" width="400" height="50" fill="black" />
+        <rect id="titanic" x="200" y="219" width="300" height="30" fill="white" />
+        <!-- Chimenea 1 -->
+        <rect x="230" y="170" width="40" height="50" fill="yellow" />
+        <rect x="230" y="170" width="40" height="20" fill="black" />
+        <!-- Chimenea 2 -->
+        <rect x="300" y="170" width="40" height="50" fill="yellow" />
+        <rect x="300" y="170" width="40" height="20" fill="black" />
+        <!-- Chimenea 3 -->
+        <rect x="365" y="170" width="40" height="50" fill="yellow" />
+        <rect x="365" y="170" width="40" height="20" fill="black" />
+        <!-- Chimenea 4 -->
+        <rect x="430" y="170" width="40" height="50" fill="yellow" />
+        <rect x="430" y="170" width="40" height="20" fill="black" />
+        <!--Ventanas-->
+        <circle cx="225" cy="235" r="7" fill="black" />
+        <circle cx="270" cy="235" r="7" fill="black" />
+        <circle cx="320" cy="235" r="7" fill="black" />
+        <circle cx="370" cy="235" r="7" fill="black" />
+        <circle cx="420" cy="235" r="7" fill="black" />
+        <circle cx="470" cy="235" r="7" fill="black" />
+        
+    </svg>
+
+    <div id="info-box">
+        <p id="info-text">Descripción del elemento</p>
+    </div>
+
+    <script>
+        const infoBox = document.getElementById("info-box");
+        const infoText = document.getElementById("info-text");
+    
+        document.getElementById("sol").addEventListener("mouseover", () => {
+            infoText.textContent = "El sol brilla en el cielo.";
+        });
+
+        document.getElementById("cielo").addEventListener("mouseover", () => {
+            infoText.textContent = "Oh, se hizo de noche!.";
+        });
+    
+        document.getElementById("nube").addEventListener("mouseover", () => {
+            infoText.textContent = "Parece que va a llover.";
+        });
+    
+        document.getElementById("cuerpoFaro").addEventListener("mouseover", () => {
+            infoText.textContent = "Un faro";
+        });
+    
+        document.getElementById("techoFaro").addEventListener("mouseover", () => {
+            infoText.textContent = "Se encendio la luz del faro.";
+        });
+    
+        document.getElementById("titanic").addEventListener("mouseover", () => {
+            infoText.textContent = "Iceberg a la vista !.";
+        });
+    </script>
+    
+</body>
+</html>

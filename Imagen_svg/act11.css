@@ -1,0 +1,57 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cara {
+    fill: #ffcc66;
+    stroke: #000000;
+    stroke-width: 2;
+}
+
+.ojo {
+    fill: #90e13a;
+    stroke: #000000;
+    stroke-width: 2;
+    transition: fill 0.3s ease;
+}
+
+.ojo-izquierdo {
+    cx: 200;
+}
+
+.ojo-derecho {
+    cx: 300;
+}
+
+.ojo:hover {
+    fill: #3366cc;
+}
+
+.boca {
+    fill: #e66b2e;
+    stroke: #000000;
+    stroke-width: 4;
+}
+
+.ceja {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 6;
+}
+
+.ceja-izquierda {
+    x1: 200;
+    y1: 180;
+    x2: 240;
+    y2: 160;
+}
+
+.ceja-derecha {
+    x1: 260;
+    y1: 160;
+    x2: 300;
+    y2: 180;
+}
