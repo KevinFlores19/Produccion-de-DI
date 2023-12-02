@@ -6,3 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
         navLinks.classList.toggle("active");
     });
 });
+
+function toggleMenu() {
+    const navLinks = document.querySelector('.header .nav-links');
+    navLinks.classList.toggle('show');
+}
