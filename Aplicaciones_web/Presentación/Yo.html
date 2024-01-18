@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Flores</title>
+    <link rel="stylesheet" href="./yo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Kevin Flores</h1>
+            <h1>20 years old</h1>
+            <br>
+            <br>
+            <h3>Tecmilenio software development </h3>
+            <h3>engineering student.</h3>
+            <br>
+            <br>
+            <br>
+
+        </div>
+        <div class="images">
+            <img src="./img/Yo.jpeg" alt="bus4" width="550" height="550" margin-botton="10px">
+        </div>
+    </div>
+
+    <div class="Body2">
+        <div style="display: flex; justify-content: center;">
+
+            <div class="rcorners" style="margin-right: 100px;">
+                <div class="img-container">
+                    <img src="./img/barcelona.png" width="200" height="300" alt="Estudiantes">
+                    <p>Soccer</p>
+                </div>
+            </div>
+
+            <div class="rcorners" style="margin-right: 100px;">
+                <div class="img-container">
+                    <img src="./img/tecnologia.png" width="200" height="300" alt="Padres de Familia">
+                    <p>Technology</p>
+                </div>
+            </div>
+
+            <a href="./rutas.html" class="rcorners" style="margin-right: 20px; text-decoration: none;">
+                <div class="img-container">
+                    <img src="./img/pes.jpg" width="200" height="300" alt="Mapas">
+                    <p>Video Games</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="animacion-2">
+        <br>
+        <h1>I have participated in projects such as <span class="word" id="word"></span></h1>
+        <br>
+    </div>
+    <script>
+        var words = ['web pages', 'software updates', 'I am admin', 'network preparation'],
+          wordWrapper = document.getElementById('word'),
+          wordWrapperContent = wordWrapper.innerHTML,
+          addingWord = false,
+          counter = 1;
+      
+      setInterval(function(){
+      
+        if(wordWrapperContent.length > 0 && !addingWord ) {
+          wordWrapper.innerHTML = wordWrapperContent.slice(0, -1);
+          wordWrapperContent = wordWrapper.innerHTML;
+        } else {
+          addingWord = true;
+        }
+      
+        if( addingWord ){
+          if( wordWrapperContent.length < words[counter].length  ) {
+            wordWrapper.innerHTML = words[counter].slice(0, wordWrapperContent.length + 1);
+            wordWrapperContent = wordWrapper.innerHTML;
+          } else {
+            if( counter < words.length) {
+              counter ++
+            }
+            addingWord = false;
+          }
+        }
+      
+        if( counter == words.length) {
+          counter = 0;
+        }
+      
+      }, 150);
+    </script>
+</body>
+</html>
