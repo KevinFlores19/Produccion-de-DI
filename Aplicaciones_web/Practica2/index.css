@@ -1,0 +1,164 @@
+*{
+    background-color: aliceblue;
+}
+
+.container .btn1 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(74, 196, 102);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn1 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn2 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(196, 180, 74);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn2 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn3 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(129, 96, 206);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn3 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn4 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(215, 49, 49);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn4 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn5 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(74, 196, 176);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn5 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn6 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(74, 196, 139);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn6 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn7 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(234, 122, 146);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn7 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn8 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(215, 220, 63);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn8 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn9 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(62, 105, 224);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn9 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
+.container .btn10 button {
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    background-color:rgb(224, 168, 95);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container .btn10 button:hover {
+    background-color: rgb(74, 151, 196);
+    color: white;
+    transform: scale(1.1);
+}
